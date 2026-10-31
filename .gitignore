@@ -1,0 +1,16 @@
+# Environment and secrets
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IIT-provided dataset and derived outputs
+leads_full_scale_100.csv
+leads_full_scale_100_output/
+test_30_leads_output/
+
+# Local generated files
+*.log
